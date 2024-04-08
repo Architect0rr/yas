@@ -36,7 +36,7 @@
 #ifndef __yas__detail__tools__utf8conv_hpp
 #define __yas__detail__tools__utf8conv_hpp
 
-#include <yas/detail/tools/cast.hpp>
+#include "cast.hpp"
 
 #include <string>
 
@@ -67,7 +67,7 @@ void to_utf8(D &dst, const S &src) {
 			dst += __YAS_SCAST(char, 0x80 | ((nchar >> 6) & 0x3F));
 			dst += __YAS_SCAST(char, 0x80 | (nchar & 0x3F));
 		}
-#if WCHAR_MAX > 0xFFFF 
+#if WCHAR_MAX > 0xFFFF
 		else if (nchar  <= 0x1FFFFF) {
 			dst += __YAS_SCAST(char, 0xF0 | (nchar >> 18));
 			dst += __YAS_SCAST(char, 0x80 | ((nchar >> 12) & 0x3F));

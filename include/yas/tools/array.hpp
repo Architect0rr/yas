@@ -36,7 +36,7 @@
 #ifndef __yas__tools__array_hpp
 #define __yas__tools__array_hpp
 
-#include <yas/detail/type_traits/type_traits.hpp>
+#include "../detail/type_traits/type_traits.hpp"
 
 #include <cstdlib>
 

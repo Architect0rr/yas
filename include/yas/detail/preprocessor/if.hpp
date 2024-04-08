@@ -14,9 +14,9 @@
 #ifndef __yas__detail__preprocessor__if_hpp
 #define __yas__detail__preprocessor__if_hpp
 #
-# include <yas/detail/preprocessor/config.hpp>
-# include <yas/detail/preprocessor/iif.hpp>
-# include <yas/detail/preprocessor/bool.hpp>
+# include "config.hpp"
+# include "iif.hpp"
+# include "bool.hpp"
 #
 # /* YAS_PP_IF */
 #

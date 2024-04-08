@@ -36,7 +36,7 @@
 #ifndef __yas__types__utility__usertype_hpp
 #define __yas__types__utility__usertype_hpp
 
-#include <yas/detail/type_traits/serializer.hpp>
+#include "../../detail/type_traits/serializer.hpp"
 
 namespace yas {
 namespace detail {

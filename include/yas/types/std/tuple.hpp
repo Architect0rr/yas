@@ -36,11 +36,11 @@
 #ifndef __yas__types__std__std_tuple_serializers_hpp
 #define __yas__types__std__std_tuple_serializers_hpp
 
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/detail/type_traits/serializer.hpp>
-#include <yas/detail/io/serialization_exceptions.hpp>
-#include <yas/detail/tools/cast.hpp>
-#include <yas/detail/tools/tuple_element_name.hpp>
+#include "../../detail/type_traits/type_traits.hpp"
+#include "../../detail/type_traits/serializer.hpp"
+#include "../../detail/io/serialization_exceptions.hpp"
+#include "../../detail/tools/cast.hpp"
+#include "../../detail/tools/tuple_element_name.hpp"
 
 #include <tuple>
 

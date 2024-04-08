@@ -36,7 +36,7 @@
 #ifndef __yas__detail__io__exception_base_hpp
 #define __yas__detail__io__exception_base_hpp
 
-#include <yas/detail/preprocessor/stringize.hpp>
+#include "../preprocessor/stringize.hpp"
 
 #include <stdexcept>
 

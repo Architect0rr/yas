@@ -36,28 +36,28 @@
 #ifndef __yas__binary_oarchive_hpp
 #define __yas__binary_oarchive_hpp
 
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/detail/type_traits/serializer.hpp>
-#include <yas/detail/io/header.hpp>
-#include <yas/detail/io/binary_streams.hpp>
-#include <yas/detail/tools/base_object.hpp>
-#include <yas/detail/tools/noncopyable.hpp>
-#include <yas/detail/tools/limit.hpp>
+#include "detail/type_traits/type_traits.hpp"
+#include "detail/type_traits/serializer.hpp"
+#include "detail/io/header.hpp"
+#include "detail/io/binary_streams.hpp"
+#include "detail/tools/base_object.hpp"
+#include "detail/tools/noncopyable.hpp"
+#include "detail/tools/limit.hpp"
 
-#include <yas/types/utility/fundamental.hpp>
-#include <yas/types/utility/enum.hpp>
-#include <yas/types/utility/usertype.hpp>
-#include <yas/types/utility/autoarray.hpp>
-#include <yas/types/utility/buffer.hpp>
-#include <yas/types/utility/value.hpp>
-#include <yas/types/utility/object.hpp>
-#include <yas/types/utility/asis.hpp>
-#include <yas/types/utility/init.hpp>
-#include <yas/types/utility/array.hpp>
+#include "types/utility/fundamental.hpp"
+#include "types/utility/enum.hpp"
+#include "types/utility/usertype.hpp"
+#include "types/utility/autoarray.hpp"
+#include "types/utility/buffer.hpp"
+#include "types/utility/value.hpp"
+#include "types/utility/object.hpp"
+#include "types/utility/asis.hpp"
+#include "types/utility/init.hpp"
+#include "types/utility/array.hpp"
 
-#include <yas/buffers.hpp>
-#include <yas/object.hpp>
-#include <yas/version.hpp>
+#include "buffers.hpp"
+#include "object.hpp"
+#include "version.hpp"
 
 namespace yas {
 

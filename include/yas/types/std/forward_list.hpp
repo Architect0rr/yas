@@ -36,9 +36,9 @@
 #ifndef __yas__types__std__std_forward_list_serializers_hpp
 #define __yas__types__std__std_forward_list_serializers_hpp
 
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/detail/type_traits/serializer.hpp>
-#include <yas/types/concepts/forward_list.hpp>
+#include "../../detail/type_traits/type_traits.hpp"
+#include "../../detail/type_traits/serializer.hpp"
+#include "../concepts/forward_list.hpp"
 
 #include <forward_list>
 

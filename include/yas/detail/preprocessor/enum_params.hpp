@@ -14,9 +14,9 @@
 #ifndef __yas__detail__preprocessor__enum_params_hpp
 #define __yas__detail__preprocessor__enum_params_hpp
 #
-# include <yas/detail/preprocessor/config.hpp>
-# include <yas/detail/preprocessor/comma_if.hpp>
-# include <yas/detail/preprocessor/repeat.hpp>
+# include "config.hpp"
+# include "comma_if.hpp"
+# include "repeat.hpp"
 #
 # /* YAS_PP_ENUM_PARAMS */
 #

@@ -36,10 +36,10 @@
 #ifndef __yas__detail__tools__base64_hpp
 #define __yas__detail__tools__base64_hpp
 
-#include <yas/detail/config/endian.hpp>
-#include <yas/detail/tools/cast.hpp>
-#include <yas/detail/io/io_exceptions.hpp>
-#include <yas/detail/io/serialization_exceptions.hpp>
+#include "../config/endian.hpp"
+#include "cast.hpp"
+#include "../io/io_exceptions.hpp"
+#include "../io/serialization_exceptions.hpp"
 
 #include <cstdint>
 

@@ -38,13 +38,13 @@
 
 #if defined(YAS_SERIALIZE_BOOST_TYPES)
 
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/detail/type_traits/serializer.hpp>
-#include <yas/detail/io/serialization_exceptions.hpp>
+#include "../../detail/type_traits/type_traits.hpp"
+#include "../../detail/type_traits/serializer.hpp"
+#include "../../detail/io/serialization_exceptions.hpp"
 
-#include <yas/types/concepts/const_sized_array.hpp>
+#include "../types/concepts/const_sized_array.hpp"
 
-#include <boost/array.hpp>
+#include "boost/array.hpp"
 
 namespace yas {
 namespace detail {

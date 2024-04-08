@@ -36,13 +36,13 @@
 #ifndef __yas__types__utility__object_hpp
 #define __yas__types__utility__object_hpp
 
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/detail/type_traits/serializer.hpp>
-#include <yas/detail/tools/cast.hpp>
-#include <yas/detail/tools/tuple_element_switch.hpp>
-#include <yas/detail/tools/json_tools.hpp>
+#include "../../detail/type_traits/type_traits.hpp"
+#include "../../detail/type_traits/serializer.hpp"
+#include "../../detail/tools/cast.hpp"
+#include "../../detail/tools/tuple_element_switch.hpp"
+#include "../../detail/tools/json_tools.hpp"
 
-#include <yas/object.hpp>
+#include "../../object.hpp"
 
 namespace yas {
 namespace detail {

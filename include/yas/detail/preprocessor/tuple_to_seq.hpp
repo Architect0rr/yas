@@ -13,11 +13,11 @@
 #ifndef __yas__detail__preprocessor__tuple_to_seq_hpp
 #define __yas__detail__preprocessor__tuple_to_seq_hpp
 #
-# include <yas/detail/preprocessor/cat.hpp>
-# include <yas/detail/preprocessor/config.hpp>
-# include <yas/detail/preprocessor/overload.hpp>
-# include <yas/detail/preprocessor/tuple_size.hpp>
-# include <yas/detail/preprocessor/variadic_size.hpp>
+# include "cat.hpp"
+# include "config.hpp"
+# include "overload.hpp"
+# include "tuple_size.hpp"
+# include "variadic_size.hpp"
 #
 # /* YAS_PP_TUPLE_TO_SEQ */
 #

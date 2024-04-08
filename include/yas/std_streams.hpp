@@ -36,8 +36,8 @@
 #ifndef __yas__std_streams_hpp
 #define __yas__std_streams_hpp
 
-#include <yas/detail/tools/cast.hpp>
-#include <yas/detail/tools/noncopyable.hpp>
+#include "detail/tools/cast.hpp"
+#include "detail/tools/noncopyable.hpp"
 
 #include <ostream>
 #include <istream>

@@ -36,11 +36,11 @@
 #ifndef __yas__object_hpp
 #define __yas__object_hpp
 
-#include <yas/detail/preprocessor/preprocessor.hpp>
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/detail/tools/fnv1a.hpp>
-#include <yas/detail/tools/ctsort.hpp>
-#include <yas/detail/tools/ctmap.hpp>
+#include "detail/preprocessor/preprocessor.hpp"
+#include "detail/type_traits/type_traits.hpp"
+#include "detail/tools/fnv1a.hpp"
+#include "detail/tools/ctsort.hpp"
+#include "detail/tools/ctmap.hpp"
 
 #include <tuple>
 #include <cstring>

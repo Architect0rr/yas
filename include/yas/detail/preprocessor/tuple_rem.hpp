@@ -13,9 +13,9 @@
 #ifndef __yas__detail__preprocessor__tuple_rem_hpp
 #define __yas__detail__preprocessor__tuple_rem_hpp
 #
-# include <yas/detail/preprocessor/cat.hpp>
-# include <yas/detail/preprocessor/config.hpp>
-# include <yas/detail/preprocessor/overload.hpp>
+# include "cat.hpp"
+# include "config.hpp"
+# include "overload.hpp"
 #
 # /* YAS_PP_REM */
 #

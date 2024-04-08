@@ -38,9 +38,9 @@
 
 #if __cplusplus >= 201703L
 
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/detail/type_traits/serializer.hpp>
-#include <yas/detail/preprocessor/preprocessor.hpp>
+#include "../../detail/type_traits/type_traits.hpp"
+#include "../../detail/type_traits/serializer.hpp"
+#include "../../detail/preprocessor/preprocessor.hpp"
 
 #include <variant>
 

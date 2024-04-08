@@ -37,12 +37,12 @@
 #define __yas__types__boost__variant_serializers_hpp
 
 #if defined(YAS_SERIALIZE_BOOST_TYPES)
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/detail/type_traits/serializer.hpp>
-#include <yas/detail/preprocessor/preprocessor.hpp>
+#include "../../detail/type_traits/type_traits.hpp"
+#include "../../detail/type_traits/serializer.hpp"
+#include "../../detail/preprocessor/preprocessor.hpp"
 
-#include <boost/mpl/at.hpp>
-#include <boost/variant.hpp>
+#include "boost/mpl/at.hpp"
+#include "boost/variant.hpp"
 
 namespace yas {
 namespace detail {

@@ -36,16 +36,16 @@
 #ifndef __yas__serialize_hpp
 #define __yas__serialize_hpp
 
-#include <yas/binary_oarchive.hpp>
-#include <yas/binary_iarchive.hpp>
-#include <yas/text_oarchive.hpp>
-#include <yas/text_iarchive.hpp>
-#include <yas/json_oarchive.hpp>
-#include <yas/json_iarchive.hpp>
-#include <yas/mem_streams.hpp>
-#include <yas/file_streams.hpp>
-#include <yas/std_streams.hpp>
-#include <yas/count_streams.hpp>
+#include "binary_oarchive.hpp"
+#include "binary_iarchive.hpp"
+#include "text_oarchive.hpp"
+#include "text_iarchive.hpp"
+#include "json_oarchive.hpp"
+#include "json_iarchive.hpp"
+#include "mem_streams.hpp"
+#include "file_streams.hpp"
+#include "std_streams.hpp"
+#include "count_streams.hpp"
 
 namespace yas {
 

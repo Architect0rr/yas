@@ -38,8 +38,8 @@
 
 #if defined(YAS_SERIALIZE_ABSL_TYPES)
 
-#include <yas/types/abseil/btree_map.hpp>
-#include <yas/types/abseil/flat_hash_map.hpp>
+#include "types/abseil/btree_map.hpp"
+#include "types/abseil/flat_hash_map.hpp"
 
 #endif // defined(YAS_SERIALIZE_ABSL_TYPES)
 

@@ -38,9 +38,9 @@
 
 #if defined(YAS_SERIALIZE_BOOST_TYPES)
 
-#include <yas/types/concepts/optional.hpp>
+#include "../types/concepts/optional.hpp"
 
-#include <boost/optional.hpp>
+#include "boost/optional.hpp"
 
 namespace yas {
 namespace detail {

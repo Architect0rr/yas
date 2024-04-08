@@ -37,11 +37,11 @@
 #define __yas__types__boost__boost_unordered_multiset_serializers_hpp
 
 #if defined(YAS_SERIALIZE_BOOST_TYPES)
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/detail/type_traits/serializer.hpp>
-#include <yas/types/concepts/set.hpp>
+#include "../../detail/type_traits/type_traits.hpp"
+#include "../../detail/type_traits/serializer.hpp"
+#include "../types/concepts/set.hpp"
 
-#include <boost/unordered_set.hpp>
+#include "boost/unordered_set.hpp"
 
 namespace yas {
 namespace detail {

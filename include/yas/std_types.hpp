@@ -36,31 +36,31 @@
 #ifndef __yas__std_types_hpp
 #define __yas__std_types_hpp
 
-#include <yas/detail/config/config.hpp>
+#include "detail/config/config.hpp"
 
-#include <yas/types/std/pair.hpp>
-#include <yas/types/std/bitset.hpp>
-#include <yas/types/std/chrono.hpp>
-#include <yas/types/std/optional.hpp>
-#include <yas/types/std/complex.hpp>
-#include <yas/types/std/string.hpp>
-#include <yas/types/std/string_view.hpp>
-#include <yas/types/std/u16string.hpp>
-#include <yas/types/std/wstring.hpp>
-#include <yas/types/std/vector.hpp>
-#include <yas/types/std/list.hpp>
-#include <yas/types/std/forward_list.hpp>
-#include <yas/types/std/map.hpp>
-#include <yas/types/std/set.hpp>
-#include <yas/types/std/deque.hpp>
-#include <yas/types/std/multimap.hpp>
-#include <yas/types/std/multiset.hpp>
-#include <yas/types/std/array.hpp>
-#include <yas/types/std/tuple.hpp>
-#include <yas/types/std/variant.hpp>
-#include <yas/types/std/unordered_set.hpp>
-#include <yas/types/std/unordered_map.hpp>
-#include <yas/types/std/unordered_multiset.hpp>
-#include <yas/types/std/unordered_multimap.hpp>
+#include "types/std/pair.hpp"
+#include "types/std/bitset.hpp"
+#include "types/std/chrono.hpp"
+#include "types/std/optional.hpp"
+#include "types/std/complex.hpp"
+#include "types/std/string.hpp"
+#include "types/std/string_view.hpp"
+#include "types/std/u16string.hpp"
+#include "types/std/wstring.hpp"
+#include "types/std/vector.hpp"
+#include "types/std/list.hpp"
+#include "types/std/forward_list.hpp"
+#include "types/std/map.hpp"
+#include "types/std/set.hpp"
+#include "types/std/deque.hpp"
+#include "types/std/multimap.hpp"
+#include "types/std/multiset.hpp"
+#include "types/std/array.hpp"
+#include "types/std/tuple.hpp"
+#include "types/std/variant.hpp"
+#include "types/std/unordered_set.hpp"
+#include "types/std/unordered_map.hpp"
+#include "types/std/unordered_multiset.hpp"
+#include "types/std/unordered_multimap.hpp"
 
 #endif // __yas__std_types_hpp

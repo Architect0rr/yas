@@ -36,7 +36,7 @@
 #ifndef __yas__detail__type_traits__has_function_serialize_hpp
 #define __yas__detail__type_traits__has_function_serialize_hpp
 
-#include <yas/detail/tools/cast.hpp>
+#include "../tools/cast.hpp"
 
 #include <type_traits>
 

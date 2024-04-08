@@ -36,7 +36,7 @@
 #ifndef __yas__detail__tools__limit_exceptions_hpp
 #define __yas__detail__tools__limit_exceptions_hpp
 
-#include <yas/detail/io/exception_base.hpp>
+#include "../io/exception_base.hpp"
 
 namespace yas {
 

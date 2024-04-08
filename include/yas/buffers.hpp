@@ -36,7 +36,7 @@
 #ifndef __yas__buffers_hpp
 #define __yas__buffers_hpp
 
-#include <yas/detail/config/config.hpp>
+#include "detail/config/config.hpp"
 
 #include <cstring>
 #include <memory>
@@ -56,17 +56,17 @@ struct intrusive_buffer {
         :data(o.data)
         ,size(o.size)
     {}
-    
+
     intrusive_buffer(const std::vector<char>& buf)
         :data(buf.data())
         ,size(buf.size())
     {}
-    
+
     intrusive_buffer(const std::vector<int8_t>& buf)
         :data(reinterpret_cast<const char*>(buf.data()))
         ,size(buf.size())
     {}
-    
+
     intrusive_buffer(const std::vector<uint8_t>& buf)
         :data(reinterpret_cast<const char*>(buf.data()))
         ,size(buf.size())

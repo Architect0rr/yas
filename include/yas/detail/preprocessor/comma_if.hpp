@@ -14,10 +14,10 @@
 #ifndef __yas__detail__preprocessor__comma_if_hpp
 #define __yas__detail__preprocessor__comma_if_hpp
 #
-# include <yas/detail/preprocessor/config.hpp>
-# include <yas/detail/preprocessor/if.hpp>
-# include <yas/detail/preprocessor/empty.hpp>
-# include <yas/detail/preprocessor/comma.hpp>
+# include "config.hpp"
+# include "if.hpp"
+# include "empty.hpp"
+# include "comma.hpp"
 #
 # /* YAS_PP_COMMA_IF */
 #

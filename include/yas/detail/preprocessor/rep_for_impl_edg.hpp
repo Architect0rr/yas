@@ -14,8 +14,8 @@
 #ifndef __yas__detail__preprocessor__rep_for_impl_edg_hpp
 #define __yas__detail__preprocessor__rep_for_impl_edg_hpp
 #
-# include <yas/detail/preprocessor/if.hpp>
-# include <yas/detail/preprocessor/tuple_eat.hpp>
+# include "if.hpp"
+# include "tuple_eat.hpp"
 #
 # define YAS_PP_FOR_1(s, p, o, m) YAS_PP_FOR_1_I(s, p, o, m)
 # define YAS_PP_FOR_2(s, p, o, m) YAS_PP_FOR_2_I(s, p, o, m)

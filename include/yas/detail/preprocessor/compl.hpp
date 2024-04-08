@@ -12,7 +12,7 @@
 #ifndef __yas__detail__preprocessor__compl_hpp
 #define __yas__detail__preprocessor__compl_hpp
 #
-# include <yas/detail/preprocessor/config.hpp>
+# include "config.hpp"
 #
 # /* YAS_PP_COMPL */
 #

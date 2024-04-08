@@ -37,14 +37,14 @@
 #define __yas__types__boost__boost_tuple_serializers_hpp
 
 #if defined(YAS_SERIALIZE_BOOST_TYPES)
-#include <yas/detail/tools/cast.hpp>
-#include <yas/detail/tools/tuple_element_name.hpp>
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/detail/type_traits/serializer.hpp>
-#include <yas/detail/io/serialization_exceptions.hpp>
+#include "../../detail/tools/cast.hpp"
+#include "../../detail/tools/tuple_element_name.hpp"
+#include "../../detail/type_traits/type_traits.hpp"
+#include "../../detail/type_traits/serializer.hpp"
+#include "../../detail/io/serialization_exceptions.hpp"
 
-#include <boost/tuple/tuple.hpp>
-#include <boost/tuple/tuple_comparison.hpp>
+#include "boost/tuple/tuple.hpp"
+#include "boost/tuple/tuple_comparison.hpp"
 
 namespace yas {
 namespace detail {

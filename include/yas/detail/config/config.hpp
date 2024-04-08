@@ -69,16 +69,16 @@
 
 /***************************************************************************/
 
-#include <yas/detail/config/endian.hpp>
+#include "endian.hpp"
 
 #if defined(__clang__)
-#   define __YAS_COMPILER_CONFIG <yas/detail/config/compiler/clang.hpp>
+#   define __YAS_COMPILER_CONFIG "compiler/clang.hpp"
 #elif defined(__GNUC__)
-#   define __YAS_COMPILER_CONFIG <yas/detail/config/compiler/gcc.hpp>
+#   define __YAS_COMPILER_CONFIG "compiler/gcc.hpp"
 #elif defined(__INTEL_COMPILER) || defined(__ICL) || defined(__ICC) || defined(__ECC)
-#   define __YAS_COMPILER_CONFIG <yas/detail/config/compiler/intel.hpp>
+#   define __YAS_COMPILER_CONFIG "compiler/intel.hpp"
 #elif defined(_MSC_VER)
-#   define __YAS_COMPILER_CONFIG <yas/detail/config/compiler/msvc.hpp>
+#   define __YAS_COMPILER_CONFIG "compiler/msvc.hpp"
 #else
 #   error "Unknown compiler"
 #endif

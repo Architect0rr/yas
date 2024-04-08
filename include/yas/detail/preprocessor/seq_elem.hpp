@@ -12,9 +12,9 @@
 #ifndef __yas__detail__preprocessor__seq_elem_hpp
 #define __yas__detail__preprocessor__seq_elem_hpp
 #
-# include <yas/detail/preprocessor/cat.hpp>
-# include <yas/detail/preprocessor/config.hpp>
-# include <yas/detail/preprocessor/empty.hpp>
+# include "cat.hpp"
+# include "config.hpp"
+# include "empty.hpp"
 #
 # /* YAS_PP_SEQ_ELEM */
 #

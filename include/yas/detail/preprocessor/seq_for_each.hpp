@@ -12,13 +12,13 @@
 #ifndef __yas__detail__preprocessor__seq_for_each_hpp
 #define __yas__detail__preprocessor__seq_for_each_hpp
 #
-# include <yas/detail/preprocessor/dec.hpp>
-# include <yas/detail/preprocessor/config.hpp>
-# include <yas/detail/preprocessor/rep_for.hpp>
-# include <yas/detail/preprocessor/seq_seq.hpp>
-# include <yas/detail/preprocessor/seq_size.hpp>
-# include <yas/detail/preprocessor/tuple_elem.hpp>
-# include <yas/detail/preprocessor/tuple_rem.hpp>
+# include "dec.hpp"
+# include "config.hpp"
+# include "rep_for.hpp"
+# include "seq_seq.hpp"
+# include "seq_size.hpp"
+# include "tuple_elem.hpp"
+# include "tuple_rem.hpp"
 #
 # /* YAS_PP_SEQ_FOR_EACH */
 #

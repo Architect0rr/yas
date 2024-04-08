@@ -14,7 +14,7 @@
 #ifndef __yas__detail__preprocessor__stringize_hpp
 #define __yas__detail__preprocessor__stringize_hpp
 #
-# include <yas/detail/preprocessor/config.hpp>
+# include "config.hpp"
 #
 # /* YAS_PP_STRINGIZE */
 #

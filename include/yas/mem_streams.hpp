@@ -36,11 +36,11 @@
 #ifndef __yas__mem_streams_hpp
 #define __yas__mem_streams_hpp
 
-#include <yas/detail/config/config.hpp>
-#include <yas/detail/tools/cast.hpp>
-#include <yas/detail/tools/noncopyable.hpp>
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/buffers.hpp>
+#include "detail/config/config.hpp"
+#include "detail/tools/cast.hpp"
+#include "detail/tools/noncopyable.hpp"
+#include "detail/type_traits/type_traits.hpp"
+#include "buffers.hpp"
 
 #include <cmath>
 #include <cstring>
@@ -182,7 +182,7 @@ struct vector_ostream {
         :owning_buf()
         ,buf(owning_buf)
     {}
-    
+
     vector_ostream(std::vector<ByteType>& buf_)
         : buf(buf_)
     {}
@@ -193,9 +193,9 @@ struct vector_ostream {
         buf.insert(buf.end(), cptr, cptr + size);
         return size;
     }
-    
+
     intrusive_buffer get_intrusive_buffer() const { return intrusive_buffer(buf); }
-    
+
     static_assert(std::is_fundamental<ByteType>::value && sizeof(ByteType) == 1, "template parameter should be a byte type");
     std::vector<ByteType>  owning_buf;
     std::vector<ByteType>& buf;

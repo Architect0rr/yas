@@ -36,12 +36,12 @@
 #ifndef __yas__detail__type_traits__type_traits_hpp
 #define __yas__detail__type_traits__type_traits_hpp
 
-#include <yas/detail/config/endian.hpp>
-#include <yas/detail/type_traits/flags.hpp>
-#include <yas/detail/type_traits/serializer.hpp>
-#include <yas/detail/type_traits/has_memfn_serialize.hpp>
-#include <yas/detail/type_traits/has_function_serialize.hpp>
-#include <yas/version.hpp>
+#include "flags.hpp"
+#include "serializer.hpp"
+#include "has_memfn_serialize.hpp"
+#include "has_function_serialize.hpp"
+#include "../config/endian.hpp"
+#include "../../version.hpp"
 
 #include <cstdint>
 #include <type_traits>

@@ -37,11 +37,11 @@
 #define __yas__types__boost__boost_fusion_pair_serializers_hpp
 
 #if defined(YAS_SERIALIZE_BOOST_TYPES)
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/detail/type_traits/serializer.hpp>
+#include "../../detail/type_traits/type_traits.hpp"
+#include "../../detail/type_traits/serializer.hpp"
 
-#include <boost/fusion/support/pair.hpp>
-#include <boost/fusion/include/pair.hpp>
+#include "boost/fusion/support/pair.hpp"
+#include "boost/fusion/include/pair.hpp"
 
 namespace yas {
 namespace detail {

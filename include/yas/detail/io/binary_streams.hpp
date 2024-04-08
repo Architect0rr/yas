@@ -36,14 +36,14 @@
 #ifndef __yas__detail__io__binary_streams_hpp
 #define __yas__detail__io__binary_streams_hpp
 
-#include <yas/detail/config/config.hpp>
+#include "../config/config.hpp"
 
-#include <yas/detail/io/io_exceptions.hpp>
-#include <yas/detail/io/serialization_exceptions.hpp>
-#include <yas/detail/io/endian_conv.hpp>
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/detail/tools/cast.hpp>
-#include <yas/tools/asis.hpp>
+#include "io_exceptions.hpp"
+#include "serialization_exceptions.hpp"
+#include "endian_conv.hpp"
+#include "../type_traits/type_traits.hpp"
+#include "../tools/cast.hpp"
+#include "../../tools/asis.hpp"
 
 namespace yas {
 namespace detail {

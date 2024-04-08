@@ -37,11 +37,11 @@
 #define __yas__types__boost__boost_container_slist_serializers_hpp
 
 #if defined(YAS_SERIALIZE_BOOST_TYPES)
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/detail/type_traits/serializer.hpp>
-#include <yas/types/concepts/forward_list.hpp>
+#include "../../detail/type_traits/type_traits.hpp"
+#include "../../detail/type_traits/serializer.hpp"
+#include "../types/concepts/forward_list.hpp"
 
-#include <boost/container/slist.hpp>
+#include "boost/container/slist.hpp"
 
 namespace yas {
 namespace detail {

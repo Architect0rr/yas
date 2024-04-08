@@ -36,9 +36,9 @@
 #ifndef __yas__types__qt__qvector_serializers_hpp
 #define __yas__types__qt__qvector_serializers_hpp
 
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/detail/type_traits/serializer.hpp>
-#include <yas/types/concepts/array.hpp>
+#include "../../detail/type_traits/type_traits.hpp"
+#include "../../detail/type_traits/serializer.hpp"
+#include "../types/concepts/array.hpp"
 
 #include <QtCore/QVector>
 

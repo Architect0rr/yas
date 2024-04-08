@@ -13,9 +13,9 @@
 #ifndef __yas__detail__preprocessor__overload_hpp
 #define __yas__detail__preprocessor__overload_hpp
 #
-# include <yas/detail/preprocessor/config.hpp>
-# include <yas/detail/preprocessor/cat.hpp>
-# include <yas/detail/preprocessor/variadic_size.hpp>
+# include "config.hpp"
+# include "cat.hpp"
+# include "variadic_size.hpp"
 #
 # /* BOOST_PP_OVERLOAD */
 #

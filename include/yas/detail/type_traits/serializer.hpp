@@ -36,7 +36,7 @@
 #ifndef __yas__detail__type_traits__serializer_hpp
 #define __yas__detail__type_traits__serializer_hpp
 
-#include <yas/detail/type_traits/flags.hpp>
+#include "flags.hpp"
 
 namespace yas {
 namespace detail {

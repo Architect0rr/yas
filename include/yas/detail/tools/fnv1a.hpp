@@ -36,7 +36,7 @@
 #ifndef __yas__detail__type_traits__fnv1a_hpp
 #define __yas__detail__type_traits__fnv1a_hpp
 
-#include <yas/detail/tools/cast.hpp>
+#include "cast.hpp"
 
 #include <cstdint>
 

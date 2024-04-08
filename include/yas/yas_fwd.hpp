@@ -36,8 +36,8 @@
 #ifndef __yas__yas_fwd_hpp
 #define __yas__yas_fwd_hpp
 
-#include <yas/detail/type_traits/flags.hpp>
-#include <yas/detail/type_traits/serializer.hpp>
+#include "detail/type_traits/flags.hpp"
+#include "detail/type_traits/serializer.hpp"
 
 namespace yas {
 

@@ -36,7 +36,7 @@
 #ifndef __yas__detail__type_traits__typeinfo_hpp
 #define __yas__detail__type_traits__typeinfo_hpp
 
-#include <yas/detail/tools/fnv1a.hpp>
+#include "../tools/fnv1a.hpp"
 
 #include <cstdint>
 

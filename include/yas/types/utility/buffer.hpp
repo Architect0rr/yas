@@ -36,12 +36,12 @@
 #ifndef __yas__types__utility__buffer_hpp
 #define __yas__types__utility__buffer_hpp
 
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/detail/type_traits/serializer.hpp>
-#include <yas/detail/tools/base64.hpp>
-#include <yas/detail/io/serialization_exceptions.hpp>
+#include "../../detail/type_traits/type_traits.hpp"
+#include "../../detail/type_traits/serializer.hpp"
+#include "../../detail/tools/base64.hpp"
+#include "../../detail/io/serialization_exceptions.hpp"
 
-#include <yas/buffers.hpp>
+#include "../../buffers.hpp"
 
 namespace yas {
 namespace detail {
@@ -79,7 +79,7 @@ struct serializer<
 
         return ar;
     }
-    
+
     template<typename Archive>
     static Archive& load(Archive& ar, intrusive_buffer &ibuf) {
         if ( ibuf.data == nullptr || ibuf.size == 0 ) {

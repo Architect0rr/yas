@@ -15,7 +15,7 @@
 #ifndef __yas__detail__preprocessor__tuple_eat_hpp
 #define __yas__detail__preprocessor__tuple_eat_hpp
 #
-# include <yas/detail/preprocessor/config.hpp>
+# include "config.hpp"
 #
 # /* YAS_PP_EAT */
 #

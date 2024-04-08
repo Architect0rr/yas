@@ -14,10 +14,10 @@
 #ifndef __yas__detail__preprocessor__rep_for_impl_hpp
 #define __yas__detail__preprocessor__rep_for_impl_hpp
 #
-# include <yas/detail/preprocessor/expr_iif.hpp>
-# include <yas/detail/preprocessor/iif.hpp>
-# include <yas/detail/preprocessor/bool.hpp>
-# include <yas/detail/preprocessor/tuple_eat.hpp>
+# include "expr_iif.hpp"
+# include "iif.hpp"
+# include "bool.hpp"
+# include "tuple_eat.hpp"
 #
 # define YAS_PP_FOR_1(s, p, o, m) YAS_PP_FOR_1_C(YAS_PP_BOOL(p(2, s)), s, p, o, m)
 # define YAS_PP_FOR_2(s, p, o, m) YAS_PP_FOR_2_C(YAS_PP_BOOL(p(3, s)), s, p, o, m)

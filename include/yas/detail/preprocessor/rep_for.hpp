@@ -14,9 +14,9 @@
 #ifndef __yas__detail__preprocessor__rep_for_hpp
 #define __yas__detail__preprocessor__rep_for_hpp
 #
-# include <yas/detail/preprocessor/cat.hpp>
-# include <yas/detail/preprocessor/error.hpp>
-# include <yas/detail/preprocessor/auto_rec.hpp>
+# include "cat.hpp"
+# include "error.hpp"
+# include "auto_rec.hpp"
 #
 # /* YAS_PP_FOR */
 #
@@ -33,13 +33,13 @@
 # define YAS_PP_FOR_SR_M(r, s) YAS_PP_NIL
 #
 # if YAS_PP_CONFIG_FLAGS() & YAS_PP_CONFIG_EDG()
-#    include <yas/detail/preprocessor/rep_for_impl_edg.hpp>
+#    include "rep_for_impl_edg.hpp"
 # elif YAS_PP_CONFIG_FLAGS() & YAS_PP_CONFIG_MSVC()
-#    include <yas/detail/preprocessor/rep_for_impl_msvc.hpp>
+#    include "rep_for_impl_msvc.hpp"
 # elif YAS_PP_CONFIG_FLAGS() & YAS_PP_CONFIG_DMC()
-#    include <yas/detail/preprocessor/rep_for_impl_dmc.hpp>
+#    include "rep_for_impl_dmc.hpp"
 # else
-#    include <yas/detail/preprocessor/rep_for_impl.hpp>
+#    include "rep_for_impl.hpp"
 # endif
 #
 # define YAS_PP_FOR_257(s, p, o, m) YAS_PP_ERROR(0x0002)

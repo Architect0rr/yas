@@ -36,11 +36,11 @@
 #ifndef __yas__types__utility__autoarray_hpp
 #define __yas__types__utility__autoarray_hpp
 
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/detail/type_traits/serializer.hpp>
-#include <yas/detail/io/serialization_exceptions.hpp>
-#include <yas/detail/tools/cast.hpp>
-#include <yas/types/concepts/const_sized_array.hpp>
+#include "../../detail/type_traits/type_traits.hpp"
+#include "../../detail/type_traits/serializer.hpp"
+#include "../../detail/io/serialization_exceptions.hpp"
+#include "../../detail/tools/cast.hpp"
+#include "../concepts/const_sized_array.hpp"
 
 #include <iterator>
 

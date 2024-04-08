@@ -38,8 +38,8 @@
 
 #if __cplusplus >= 201703L
 
-#include <yas/detail/type_traits/serializer.hpp>
-#include <yas/detail/tools/save_load_string.hpp>
+#include "../../detail/type_traits/serializer.hpp"
+#include "../../detail/tools/save_load_string.hpp"
 
 #include <string_view>
 #include <cassert>

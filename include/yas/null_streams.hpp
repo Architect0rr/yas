@@ -36,11 +36,11 @@
 #ifndef __yas__null_streams_hpp
 #define __yas__null_streams_hpp
 
-#include <yas/detail/config/config.hpp>
-#include <yas/detail/tools/cast.hpp>
-#include <yas/detail/tools/noncopyable.hpp>
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/buffers.hpp>
+#include "detail/config/config.hpp"
+#include "detail/tools/cast.hpp"
+#include "detail/tools/noncopyable.hpp"
+#include "detail/type_traits/type_traits.hpp"
+#include "buffers.hpp"
 
 #include <cmath>
 #include <cstring>

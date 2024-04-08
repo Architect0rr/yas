@@ -13,9 +13,9 @@
 #ifndef __yas__detail__preprocessor__tuple_size_hpp
 #define __yas__detail__preprocessor__tuple_size_hpp
 #
-# include <yas/detail/preprocessor/cat.hpp>
-# include <yas/detail/preprocessor/config.hpp>
-# include <yas/detail/preprocessor/variadic_size.hpp>
+# include "cat.hpp"
+# include "config.hpp"
+# include "variadic_size.hpp"
 #
 # if YAS_PP_VARIADICS
 #    if YAS_PP_VARIADICS_MSVC

@@ -14,8 +14,8 @@
 #ifndef __yas__detail__preprocessor__rep_for_impl_msvc_hpp
 #define __yas__detail__preprocessor__rep_for_impl_msvc_hpp
 #
-# include <yas/detail/preprocessor/if.hpp>
-# include <yas/detail/preprocessor/tuple_eat.hpp>
+# include "if.hpp"
+# include "tuple_eat.hpp"
 #
 # define YAS_PP_FOR_1(s, p, o, m) YAS_PP_IF(p(2, s), m, YAS_PP_TUPLE_EAT_2)(2, s) YAS_PP_IF(p(2, s), YAS_PP_FOR_2, YAS_PP_TUPLE_EAT_4)(o(2, s), p, o, m)
 # define YAS_PP_FOR_2(s, p, o, m) YAS_PP_IF(p(3, s), m, YAS_PP_TUPLE_EAT_2)(3, s) YAS_PP_IF(p(3, s), YAS_PP_FOR_3, YAS_PP_TUPLE_EAT_4)(o(3, s), p, o, m)

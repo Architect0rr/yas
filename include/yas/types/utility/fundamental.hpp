@@ -36,8 +36,8 @@
 #ifndef __yas__types__utility__fundamental_hpp
 #define __yas__types__utility__fundamental_hpp
 
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/detail/type_traits/serializer.hpp>
+#include "../../detail/type_traits/type_traits.hpp"
+#include "../../detail/type_traits/serializer.hpp"
 
 namespace yas {
 namespace detail {

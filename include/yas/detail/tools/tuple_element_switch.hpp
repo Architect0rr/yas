@@ -36,9 +36,9 @@
 #ifndef __yas__detail__tools__tuple_element_switch_hpp
 #define __yas__detail__tools__tuple_element_switch_hpp
 
-#include <yas/detail/config/config.hpp>
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/detail/preprocessor/preprocessor.hpp>
+#include "../config/config.hpp"
+#include "../type_traits/type_traits.hpp"
+#include "../preprocessor/preprocessor.hpp"
 
 namespace yas {
 namespace detail {

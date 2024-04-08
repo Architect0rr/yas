@@ -36,8 +36,8 @@
 #ifndef __yas__detail__io__io_exceptions_hpp
 #define __yas__detail__io__io_exceptions_hpp
 
-#include <yas/detail/config/config.hpp>
-#include <yas/detail/io/exception_base.hpp>
+#include "../config/config.hpp"
+#include "exception_base.hpp"
 
 namespace yas {
 

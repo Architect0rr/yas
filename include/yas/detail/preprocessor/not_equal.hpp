@@ -14,9 +14,9 @@
 #ifndef __yas__detail__preprocessor__not_equal_hpp
 #define __yas__detail__preprocessor__not_equal_hpp
 #
-# include <yas/detail/preprocessor/cat.hpp>
-# include <yas/detail/preprocessor/config.hpp>
-# include <yas/detail/preprocessor/iif.hpp>
+# include "cat.hpp"
+# include "config.hpp"
+# include "iif.hpp"
 #
 # /* YAS_PP_NOT_EQUAL */
 #

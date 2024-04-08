@@ -36,9 +36,9 @@
 #ifndef __yas__detail__tools__limit_hpp
 #define __yas__detail__tools__limit_hpp
 
-#include <yas/detail/tools/cast.hpp>
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/detail/tools/limit_exceptions.hpp>
+#include "cast.hpp"
+#include "limit_exceptions.hpp"
+#include "../type_traits/type_traits.hpp"
 
 namespace yas {
 

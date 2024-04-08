@@ -12,7 +12,7 @@
 #ifndef __yas__detail__preprocessor__iif_hpp
 #define __yas__detail__preprocessor__iif_hpp
 #
-# include <yas/detail/preprocessor/config.hpp>
+# include "config.hpp"
 #
 # if ~YAS_PP_CONFIG_FLAGS() & YAS_PP_CONFIG_MWCC()
 #    define YAS_PP_IIF(bit, t, f) YAS_PP_IIF_I(bit, t, f)

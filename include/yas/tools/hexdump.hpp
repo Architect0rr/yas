@@ -36,8 +36,8 @@
 #ifndef __yas__tools__hexdump_hpp
 #define __yas__tools__hexdump_hpp
 
-#include <yas/detail/tools/cast.hpp>
-#include <yas/buffers.hpp>
+#include "../detail/tools/cast.hpp"
+#include "../buffers.hpp"
 
 #include <sstream>
 #include <iomanip>

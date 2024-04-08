@@ -36,7 +36,7 @@
 #ifndef __yas__std_traits_hpp
 #define __yas__std_traits_hpp
 
-#include <yas/detail/config/config.hpp>
+#include "detail/config/config.hpp"
 
 #include <cstdint>
 #include <cstdio>

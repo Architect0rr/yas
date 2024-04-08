@@ -38,12 +38,12 @@
 
 #if defined(YAS_SERIALIZE_QT_TYPES)
 
-#include <yas/types/qt/qbytearray.hpp>
-#include <yas/types/qt/qlist.hpp>
-#include <yas/types/qt/qmap.hpp>
-#include <yas/types/qt/qstring.hpp>
-#include <yas/types/qt/qstringlist.hpp>
-#include <yas/types/qt/qvector.hpp>
+#include "types/qt/qbytearray.hpp"
+#include "types/qt/qlist.hpp"
+#include "types/qt/qmap.hpp"
+#include "types/qt/qstring.hpp"
+#include "types/qt/qstringlist.hpp"
+#include "types/qt/qvector.hpp"
 
 #endif // defined(YAS_SERIALIZE_QT_TYPES)
 

@@ -12,7 +12,7 @@
 #ifndef __yas__detail__preprocessor__bitand_hpp
 #define __yas__detail__preprocessor__bitand_hpp
 #
-# include <yas/detail/preprocessor/config.hpp>
+# include "config.hpp"
 #
 # /* YAS_PP_BITAND */
 #

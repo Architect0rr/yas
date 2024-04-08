@@ -36,10 +36,10 @@
 #ifndef __yas__types__utility__asis_hpp
 #define __yas__types__utility__asis_hpp
 
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/detail/type_traits/serializer.hpp>
+#include "../../detail/type_traits/type_traits.hpp"
+#include "../../detail/type_traits/serializer.hpp"
 
-#include <yas/tools/asis.hpp>
+#include "../../tools/asis.hpp"
 
 namespace yas {
 namespace detail {

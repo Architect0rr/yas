@@ -36,12 +36,12 @@
 #ifndef __yas__detail__tools__enumerate_fusion_seq_hpp
 #define __yas__detail__tools__enumerate_fusion_seq_hpp
 
-#include <yas/detail/config/config.hpp>
+#include "../../detail/config/config.hpp"
 
 #if defined(YAS_SERIALIZE_BOOST_TYPES)
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/detail/type_traits/serializer.hpp>
-#include <yas/detail/io/serialization_exceptions.hpp>
+#include "../../detail/type_traits/type_traits.hpp"
+#include "../../detail/type_traits/serializer.hpp"
+#include "../../detail/io/serialization_exceptions.hpp"
 
 #include <boost/fusion/sequence/intrinsic/at.hpp>
 #include <boost/fusion/include/at.hpp>

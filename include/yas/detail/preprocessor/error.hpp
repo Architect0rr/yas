@@ -12,8 +12,8 @@
 #ifndef __yas__detail__preprocessor__error_hpp
 #define __yas__detail__preprocessor__error_hpp
 #
-# include <yas/detail/preprocessor/cat.hpp>
-# include <yas/detail/preprocessor/config.hpp>
+# include "cat.hpp"
+# include "config.hpp"
 #
 # /* YAS_PP_ERROR */
 #

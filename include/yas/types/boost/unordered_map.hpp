@@ -37,11 +37,11 @@
 #define __yas__types__boost__boost_unordered_map_serializers_hpp
 
 #if defined(YAS_SERIALIZE_BOOST_TYPES)
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/detail/type_traits/serializer.hpp>
-#include <yas/types/concepts/keyval.hpp>
+#include "../../detail/type_traits/type_traits.hpp"
+#include "../../detail/type_traits/serializer.hpp"
+#include "../types/concepts/keyval.hpp"
 
-#include <boost/unordered_map.hpp>
+#include "boost/unordered_map.hpp"
 
 namespace yas {
 namespace detail {

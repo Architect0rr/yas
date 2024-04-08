@@ -36,12 +36,12 @@
 #ifndef __yas__detail__io__header_hpp
 #define __yas__detail__io__header_hpp
 
-#include <yas/detail/config/config.hpp>
+#include "../config/config.hpp"
 
-#include <yas/detail/io/io_exceptions.hpp>
-#include <yas/detail/io/endian_conv.hpp>
+#include "io_exceptions.hpp"
+#include "endian_conv.hpp"
 
-#include <yas/detail/type_traits/type_traits.hpp>
+#include "../type_traits/type_traits.hpp"
 
 #include <cstring>
 #include <limits>

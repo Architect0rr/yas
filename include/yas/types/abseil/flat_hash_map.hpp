@@ -36,9 +36,9 @@
 #define __yas__types__abseil__absl_flat_hash_map_serializers_hpp
 
 #if defined(YAS_SERIALIZE_ABSL_TYPES)
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/detail/type_traits/serializer.hpp>
-#include <yas/types/concepts/keyval.hpp>
+#include "../../detail/type_traits/type_traits.hpp"
+#include "../../detail/type_traits/serializer.hpp"
+#include "../types/concepts/keyval.hpp"
 
 #include <absl/container/flat_hash_map.h>
 

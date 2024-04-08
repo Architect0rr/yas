@@ -36,10 +36,10 @@
 #ifndef __yas__tools__archinfo_hpp
 #define __yas__tools__archinfo_hpp
 
-#include <yas/binary_oarchive.hpp>
-#include <yas/binary_iarchive.hpp>
-#include <yas/text_oarchive.hpp>
-#include <yas/text_iarchive.hpp>
+#include "../binary_oarchive.hpp"
+#include "../binary_iarchive.hpp"
+#include "../text_oarchive.hpp"
+#include "../text_iarchive.hpp"
 
 namespace yas {
 

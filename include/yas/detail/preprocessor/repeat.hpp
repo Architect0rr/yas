@@ -14,11 +14,11 @@
 #ifndef __yas__detail__preprocessor__repeat_hpp
 #define __yas__detail__preprocessor__repeat_hpp
 #
-# include <yas/detail/preprocessor/cat.hpp>
-# include <yas/detail/preprocessor/config.hpp>
-# include <yas/detail/preprocessor/error.hpp>
-# include <yas/detail/preprocessor/auto_rec.hpp>
-# include <yas/detail/preprocessor/tuple_eat.hpp>
+# include "cat.hpp"
+# include "config.hpp"
+# include "error.hpp"
+# include "auto_rec.hpp"
+# include "tuple_eat.hpp"
 #
 # /* YAS_PP_REPEAT */
 #

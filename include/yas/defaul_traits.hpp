@@ -36,9 +36,9 @@
 #ifndef __yas__defaul_traits_hpp
 #define __yas__defaul_traits_hpp
 
-#include <yas/detail/config/config.hpp>
-#include <yas/detail/tools/cast.hpp>
-#include <yas/detail/tools/rapidjson_dtoa.hpp>
+#include "detail/config/config.hpp"
+#include "detail/tools/cast.hpp"
+#include "detail/tools/rapidjson_dtoa.hpp"
 
 #include <cstdint>
 #include <cstring>

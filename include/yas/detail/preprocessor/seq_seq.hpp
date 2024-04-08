@@ -12,8 +12,8 @@
 #ifndef __yas__detail__preprocessor__seq_seq_hpp
 #define __yas__detail__preprocessor__seq_seq_hpp
 #
-# include <yas/detail/preprocessor/config.hpp>
-# include <yas/detail/preprocessor/seq_elem.hpp>
+# include "config.hpp"
+# include "seq_elem.hpp"
 #
 # /* YAS_PP_SEQ_HEAD */
 #

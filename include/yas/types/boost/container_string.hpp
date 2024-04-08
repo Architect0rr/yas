@@ -37,12 +37,12 @@
 #define __yas__types__boost__boost_container_string_serializers_hpp
 
 #if defined(YAS_SERIALIZE_BOOST_TYPES)
-#include <yas/detail/type_traits/type_traits.hpp>
-#include <yas/detail/type_traits/serializer.hpp>
-#include <yas/detail/tools/cast.hpp>
-#include <yas/detail/tools/save_load_string.hpp>
+#include "../../detail/type_traits/type_traits.hpp"
+#include "../../detail/type_traits/serializer.hpp"
+#include "../../detail/tools/cast.hpp"
+#include "../../detail/tools/save_load_string.hpp"
 
-#include <boost/container/string.hpp>
+#include "boost/container/string.hpp"
 
 namespace yas {
 namespace detail {

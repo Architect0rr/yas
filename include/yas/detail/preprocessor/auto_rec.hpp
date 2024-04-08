@@ -13,8 +13,8 @@
 #ifndef __yas__detail__preprocessor__auto_rec_hpp
 #define __yas__detail__preprocessor__auto_rec_hpp
 #
-# include <yas/detail/preprocessor/config.hpp>
-# include <yas/detail/preprocessor/iif.hpp>
+# include "config.hpp"
+# include "iif.hpp"
 #
 # /* YAS_PP_AUTO_REC */
 #

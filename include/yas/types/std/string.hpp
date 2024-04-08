@@ -36,10 +36,10 @@
 #ifndef __yas__types__std__std_string_serializers_hpp
 #define __yas__types__std__std_string_serializers_hpp
 
-#include <yas/detail/type_traits/serializer.hpp>
-#include <yas/detail/tools/cast.hpp>
-#include <yas/detail/tools/save_load_string.hpp>
-#include <yas/detail/tools/json_tools.hpp>
+#include "../../detail/type_traits/serializer.hpp"
+#include "../../detail/tools/cast.hpp"
+#include "../../detail/tools/save_load_string.hpp"
+#include "../../detail/tools/json_tools.hpp"
 
 #include <string>
 #include <cassert>

@@ -36,7 +36,7 @@
 #ifndef __yas__detail__io__serialization_exceptions_hpp
 #define __yas__detail__io__serialization_exceptions_hpp
 
-#include <yas/detail/io/exception_base.hpp>
+#include "exception_base.hpp"
 
 namespace yas {
 

@@ -36,9 +36,9 @@
 #ifndef __yas__file_streams_hpp
 #define __yas__file_streams_hpp
 
-#include <yas/detail/config/config.hpp>
-#include <yas/detail/tools/noncopyable.hpp>
-#include <yas/detail/io/io_exceptions.hpp>
+#include "detail/config/config.hpp"
+#include "detail/tools/noncopyable.hpp"
+#include "detail/io/io_exceptions.hpp"
 
 #include <string>
 #include <cstdio>
